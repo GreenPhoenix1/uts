@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/mini1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tolong memakai ya dan tidak, program bisa error nanti"
+        />
+    
+    <TextView
+        android:id="@+id/mini2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.apakah unpri the best?"
+        android:layout_below="@+id/mini1"
+        />
+    
+    <EditText
+        android:id="@+id/etminiq1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="ya atau tidak"
+        android:layout_below="@+id/mini2"
+        />
+    
+    <Button
+        android:id="@+id/btnminiq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_below="@+id/etminiq1"
+        />
+    
+    <TextView
+        android:id="@+id/mini3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. apakah kuliah menyenangkan?"
+        android:layout_below="@+id/btnminiq1"
+        />
+    
+    <EditText
+        android:id="@+id/etminiq2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ya atau tidak"
+        android:layout_below="@+id/mini3"
+        />
+    
+    <Button
+        android:id="@+id/btnminiq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_below="@+id/etminiq2"
+        />
+    
+    <TextView
+        android:id="@+id/mini4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. anda gamer?."
+        android:layout_below="@+id/btnminiq2"
+        />
+    
+    <EditText
+        android:id="@+id/etminiq3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="ya atau tidak"
+        android:layout_below="@+id/mini4"
+        />
+    
+    <Button
+        android:id="@+id/btnminiq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_below="@+id/etminiq3"
+        />
+    
+    
+
+</RelativeLayout>
